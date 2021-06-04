@@ -1,0 +1,22 @@
+@import "./normalize.css";
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    user-select: none; /*禁止用户鼠标在页面上选中文字图片等*/
+}
+
+::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-text:#666;
+    --color-high-text:#ff5777;
+    --color-tint:#ff8198;
+    --color-background:#fff;
+    --font-size:14px;
+    --line-height:1.5;
+}
