@@ -17,7 +17,7 @@
     <div>
       <a href="#">
         <img src="../../../assets/img/b3.png" alt="" />
-        <span>白色耐脏运动鞋</span>
+        <span>白色耐脏运动</span>
       </a>
     </div>
     <div>
@@ -29,7 +29,7 @@
     <div>
       <a href="#">
         <img src="../../../assets/img/b3.png" alt="" />
-        <span>白色耐脏运动鞋</span>
+        <span>白色耐脏运动</span>
       </a>
     </div>
     <div>
@@ -62,7 +62,7 @@ export default {
 .xiaotime{
     display: flex;
     flex-flow: row wrap;
-    margin: 30px 10px;
+    padding: 30px 10px;
     justify-content: space-around;
 }
 .xiaotime div{
@@ -71,7 +71,7 @@ export default {
     /* height: 50px; */
     font-size: 12px;
     text-align: center;
-    margin-bottom:10px ;
+    padding-bottom:10px ;
 }
 .xiaotime div img{
     width: 100%;
@@ -84,6 +84,6 @@ export default {
      height: 30px;
      
      text-align: center;
-     margin-bottom:20px ;
+     padding-bottom:20px ;
  }
 </style>

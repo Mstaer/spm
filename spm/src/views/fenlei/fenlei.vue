@@ -1,15 +1,21 @@
 <template >
-    <div>
-        分类
-    </div>
+  <div>
+      111
+   <feileitabbar></feileitabbar>
+  </div>
 </template>
 
 <script>
+import feileitabbar from "./fenleitabbar"
+
 export default {
-    name:"fenlei"
-}
+  name: "fenlei",
+
+   components: {
+    feileitabbar
+  },
+};
 </script>
 
 <style>
-    
 </style>

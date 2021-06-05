@@ -6,6 +6,7 @@ const shouye = ()=> import("../views/shouye/shouye.vue")
 const fenlei = ()=> import("../views/fenlei/fenlei.vue")
 const gouwuche = ()=> import("../views/gouwuche/gouwuche.vue")
 const wode = ()=> import("../views/wode/wode.vue")
+const xianqin = ()=> import("../views/xianqin/xianqin.vue")
 
 // 安装插件
 Vue.use(VueRouter) 
@@ -32,6 +33,10 @@ const routes = [
         path:"/wode",
         component: wode
     },
+    {
+        path:'/xianqin/:id',
+        component:xianqin
+    }
 ]
 const router= new VueRouter({
     routes,

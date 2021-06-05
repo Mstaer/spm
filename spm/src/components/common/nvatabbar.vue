@@ -1,14 +1,32 @@
 <template>
     <div class="nvatabbar">
-        <div>流行</div>
-        <div>新款</div>
-        <div>精选</div>
+        <div v-for="(i,index) in biaoti" :key="i" :class="{yanshi:index===id}" @click="show(index)"><span >{{i}}</span></div>
     </div>
 </template>
 
 <script>
 export default {
-    name:"nvatabbar"
+    name:"nvatabbar",
+    props:{
+        biaoti:{
+            type:Array,
+            default(){
+                return []
+            }
+        }
+    },
+    data() {
+        return {
+            id:0
+        }
+    },
+    methods: {
+        show(index){
+             this.id = index
+              this.$emit("shijianmingzi",index)
+            
+        }
+    },
 }
 </script>
 
@@ -23,5 +41,14 @@ export default {
         height: 30px;
         line-height: 30px;
         font-size: 15px;
+    }
+    .nvatabbar div span{
+        padding: 5px;
+    }
+    .yanshi  span{
+        color:pink;
+        border-bottom:2px solid pink ;
+        
+
     }
 </style>
