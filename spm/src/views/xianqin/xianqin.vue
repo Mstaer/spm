@@ -97,7 +97,7 @@ export default {
     add() {
     //   console.log("1111");
     //   this.$store.commit("add");
-        console.log("加入购物车成功");
+        // console.log("加入购物车成功");
         this.showtj = true
         setTimeout(()=>{
           this.showtj = false

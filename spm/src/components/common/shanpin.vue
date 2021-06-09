@@ -3,44 +3,80 @@
     <ul>
         <!-- <li>{{shuju1}}</li> -->
       <li @click="xianqin(shuju1.id)">
-        
-          <img :src="shuju1.link" alt="" />
+          <img v-lazy="shuju1.link" alt="">
+          <!-- <img :src="shuju1.link" alt="" /> -->
           <span> {{"￥"+ shuju1.jiage }}</span>
           {{ shuju1.name }}
       </li>
        <li @click="xianqin(shuju1.id)">
-        
-          <img :src="shuju1.link" alt="" />
+          <img v-lazy="shuju1.link" alt="">
+          <!-- <img :src="shuju1.link" alt="" /> -->
           <span> {{"￥"+ shuju1.jiage }}</span>
           {{ shuju1.name }}
       </li>
        <li @click="xianqin(shuju1.id)">
-        
-          <img :src="shuju1.link" alt="" />
-          <span> {{"￥"+ shuju1.jiage }}</span>
-          {{ shuju1.name }}
-      </li>
-       <li @click="xianqin(shuju1.id)">
-        
-          <img :src="shuju1.link" alt="" />
+          <img v-lazy="shuju1.link" alt="">
+          <!-- <img :src="shuju1.link" alt="" /> -->
           <span> {{"￥"+ shuju1.jiage }}</span>
           {{ shuju1.name }}
       </li>
       <li @click="xianqin(shuju1.id)">
-        
-          <img :src="shuju1.link" alt="" />
+          <img v-lazy="shuju1.link" alt="">
+          <!-- <img :src="shuju1.link" alt="" /> -->
           <span> {{"￥"+ shuju1.jiage }}</span>
           {{ shuju1.name }}
       </li>
       <li @click="xianqin(shuju1.id)">
-        
-          <img :src="shuju1.link" alt="" />
+          <img v-lazy="shuju1.link" alt="">
+          <!-- <img :src="shuju1.link" alt="" /> -->
           <span> {{"￥"+ shuju1.jiage }}</span>
           {{ shuju1.name }}
       </li>
       <li @click="xianqin(shuju1.id)">
-        
-          <img :src="shuju1.link" alt="" />
+          <img v-lazy="shuju1.link" alt="">
+          <!-- <img :src="shuju1.link" alt="" /> -->
+          <span> {{"￥"+ shuju1.jiage }}</span>
+          {{ shuju1.name }}
+      </li>
+     <li @click="xianqin(shuju1.id)">
+          <img v-lazy="shuju1.link" alt="">
+          <!-- <img :src="shuju1.link" alt="" /> -->
+          <span> {{"￥"+ shuju1.jiage }}</span>
+          {{ shuju1.name }}
+      </li>
+      <li @click="xianqin(shuju1.id)">
+          <img v-lazy="shuju1.link" alt="">
+          <!-- <img :src="shuju1.link" alt="" /> -->
+          <span> {{"￥"+ shuju1.jiage }}</span>
+          {{ shuju1.name }}
+      </li>
+      <li @click="xianqin(shuju1.id)">
+          <img v-lazy="shuju1.link" alt="">
+          <!-- <img :src="shuju1.link" alt="" /> -->
+          <span> {{"￥"+ shuju1.jiage }}</span>
+          {{ shuju1.name }}
+      </li>
+      <li @click="xianqin(shuju1.id)">
+          <img v-lazy="shuju1.link" alt="">
+          <!-- <img :src="shuju1.link" alt="" /> -->
+          <span> {{"￥"+ shuju1.jiage }}</span>
+          {{ shuju1.name }}
+      </li>
+      <li @click="xianqin(shuju1.id)">
+          <img v-lazy="shuju1.link" alt="">
+          <!-- <img :src="shuju1.link" alt="" /> -->
+          <span> {{"￥"+ shuju1.jiage }}</span>
+          {{ shuju1.name }}
+      </li>
+      <li @click="xianqin(shuju1.id)">
+          <img v-lazy="shuju1.link" alt="">
+          <!-- <img :src="shuju1.link" alt="" /> -->
+          <span> {{"￥"+ shuju1.jiage }}</span>
+          {{ shuju1.name }}
+      </li>
+      <li @click="xianqin(shuju1.id)">
+          <img v-lazy="shuju1.link" alt="">
+          <!-- <img :src="shuju1.link" alt="" /> -->
           <span> {{"￥"+ shuju1.jiage }}</span>
           {{ shuju1.name }}
       </li>

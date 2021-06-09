@@ -32,7 +32,7 @@ export default {
     },
     methods: {
         xuanz(){
-            console.log("111");
+            // console.log("111");
             this.$store.state.shanpins[0].chaeck = this.$refs.gouwuchesp.shouw
         }
        

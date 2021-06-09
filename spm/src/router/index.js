@@ -7,6 +7,8 @@ const fenlei = ()=> import("../views/fenlei/fenlei.vue")
 const gouwuche = ()=> import("../views/gouwuche/gouwuche.vue")
 const wode = ()=> import("../views/wode/wode.vue")
 const xianqin = ()=> import("../views/xianqin/xianqin.vue")
+const kfz = ()=> import("../views/kfz/kfz.vue")
+const login =()=> import("../views/login/login.vue")
 
 // 安装插件
 Vue.use(VueRouter) 
@@ -36,6 +38,14 @@ const routes = [
     {
         path:'/xianqin/:id',
         component:xianqin
+    },
+    {
+        path:'/kfz',
+        component:kfz
+    },
+    {
+        path:'/login',
+        component:login
     }
 ]
 const router= new VueRouter({

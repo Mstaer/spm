@@ -2,6 +2,9 @@
   <div class="wrapper" ref="scroll">
     <nvabar> <div slot="conm"> 我的主页</div></nvabar>
        <!-- <scroll></scroll> -->
+  <logintb></logintb>
+  <xiaoxi></xiaoxi>
+  <gwclei></gwclei>
   </div>
 </template>
 
@@ -11,6 +14,9 @@
 // import PullUp from '@better-scroll/pull-up'
 // import scroll from '../../components/common/scroll/scroll.vue'
 import nvabar from '../../components/common/nvabar/nvabar.vue'
+import logintb from './loginbt.vue'
+import xiaoxi from './xiaoxi.vue'
+import gwclei from './gwclei.vue'
 
 export default {
      
@@ -18,7 +24,10 @@ export default {
 
   components:{
       // scroll
-      nvabar
+      nvabar,
+      logintb,
+      xiaoxi,
+       gwclei
   },
  
  
@@ -59,10 +68,10 @@ export default {
 </script>
 
 <style scoped>
-.wrapper{
+/* .wrapper{
     height: 200px;
     background-color: rgb(182, 172, 172);
     overflow: hidden;
-}
+} */
 
 </style>

@@ -137,7 +137,7 @@ export default {
       // this.ishowtab= -position.y > (this.nvatabbartop-45)
     },
     pullingUp(){
-      console.log("加载");
+      // console.log("加载");
       // getshouyedata().then((res)=>{
       //   console.log(res.data);
       //   console.log(this.pop["liux"].list);

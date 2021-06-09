@@ -21,7 +21,7 @@ export default {
      
   },
   addjiage(context){
-    console.log("1111");
+    // console.log("1111");
     // var jiage1 = 0
     // for (let i = 0; i <context.state.shanpins.lenght; i++) {
     //   console.log(context.state.shanpins.lenght)

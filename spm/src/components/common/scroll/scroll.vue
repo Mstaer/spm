@@ -14,44 +14,42 @@ export default {
     probetype: {
       type: Number,
       default: 0,
-      
     },
-    pullupload:{
-      type:Boolean,
-      default:false
-    }
+    pullupload: {
+      type: Boolean,
+      default: false,
+    },
   },
 
   mounted() {
-    
-      this.scroll = new BScroll(this.$refs.wrapper, {
+    this.scroll = new BScroll(this.$refs.wrapper, {
       probeType: this.probetype,
       click: true,
-      pullUpLoad:this.pullupload ,
+      pullUpLoad: this.pullupload,
       // wheel: true,
       scrollbar: true,
       observeDOM: true,
-      observeImage: true
+      observeImage: true,
     });
     this.scroll.on("scroll", (position) => {
       // console.log(position);
-      this.$emit('scroll',position)
+      this.$emit("scroll", position);
     });
     this.scroll.scrollTo(0, 0);
-    this.scroll.on('pullingUp',()=>{
-      // console.log("加载");
-      this.$emit('pullingUp')
-    })
-  
-    
+    if (this.pullupload == true) {
+      this.scroll.on("pullingUp", () => {
+        // console.log("加载");
+        this.$emit("pullingUp");
+      });
+    }
   },
   methods: {
     scrollTo(x, y, time = 500) {
       this.scroll.scrollTo(x, y, time);
     },
-    finishpullup(){
-      this.scroll.finishPullUp()
-    }
+    finishpullup() {
+      this.scroll.finishPullUp();
+    },
   },
 };
 </script>
