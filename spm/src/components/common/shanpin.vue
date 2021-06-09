@@ -53,7 +53,7 @@ export default {
   name: "shanpin",
   props: {
     shuju1: {
-        type:Object,
+        type:NaN,
       default() {
         return {};
       },
@@ -76,7 +76,7 @@ export default {
 <style >
 .shanpin {
   /* height: 100%; */
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 .shanpin ul {
   display: flex;

@@ -22,6 +22,7 @@ export default {
   justify-content: space-between;
   text-align: center;
   color: #fff;
+ 
 }
 
 .conm {
